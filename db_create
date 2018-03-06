@@ -14,3 +14,4 @@ mysql -h 172.17.0.2 -uroot -pmypassword
 use books;
 insert into goodread(title, author, image_url) values('test','shura','/home/my_photo.img');
 select * from goodread;
+DELETE FROM goodread WHERE id=1;
