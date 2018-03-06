@@ -10,3 +10,7 @@ docker run \
 --volume=/root/docker/test-mysql/conf.d:/etc/mysql/conf.d \
 --volume=/storage/docker/mysql-datadir:/var/lib/mysql \
 mysql
+
+
+#Ruby and MYSQL, first steps
+http://zetcode.com/db/mysqlrubytutorial/
