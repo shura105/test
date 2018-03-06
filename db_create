@@ -8,3 +8,9 @@
  create table goodread(id int(11) unsigned auto_increment primary key not null,title varchar(30) not null,author varchar(20) not null,image_url varchar(255) not null);
  show tables;
  describe goodread;
+
+#Test database in console
+mysql -h 172.17.0.2 -uroot -pmypassword
+use books;
+insert into goodread(title, author, image_url) values('test','shura','/home/my_photo.img');
+select * from goodread;
