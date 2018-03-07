@@ -1,0 +1,13 @@
+#Targets
+1. Start container "test-mysql" in docker-ce
+2. Create a table "readbook" in database "books"
+3. Make HTTP request to https://www.goodreads.com/search/index.xml  (parameter "author" = "Jack London")
+4. Parse xml report
+5. Put data (parse results) in datbase
+
+#Results
+1 - Done
+2 - Done
+3 - Done
+4 - In process
+5 - In process
