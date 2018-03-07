@@ -3,7 +3,7 @@
 2. Create a table "readbook" in database "books"
 3. Make HTTP request to https://www.goodreads.com/search/index.xml  (parameter "author" = "Jack London")
 4. Parse xml report
-5. Put data (parse results) in datbase
+5. Put data (parse results) in database
 
 #Results
 1 - Done
