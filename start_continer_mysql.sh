@@ -9,5 +9,7 @@ docker run \
 mysql
 
 #After reboot system container will not start automaticly
-#To start container
-Docker start test-mysql
+#To start "test-mysql" container
+docker start test-mysql
+#To start "test-wordpress" container
+docker start test-wordpress 
